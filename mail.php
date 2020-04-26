@@ -1,16 +1,17 @@
 <?php
-if(isset( $_POST['name']))
-$name = $_POST['name'];
-if(isset( $_POST['email']))
-$email = $_POST['email'];
-if(isset( $_POST['message']))
-$message = $_POST['message'];
-if(isset( $_POST['subject']))
-$subject = $_POST['subject'];
+if(isset( $_POST['firstName']))
+$firstName = $_POST['firstName'];
+if(isset( $_POST['lastName']))
+$lastName = $_POST['lastName'];
+if(isset( $_POST['inputEmail']))
+$inputEmail = $_POST['inputEmail'];
+if(isset( $_POST['phoneNumber']))
+$phoneNumber = $_POST['phoneNumber'];
 
-$content="From: $name \n Email: $email \n Message: $message";
-$recipient = "norton4nid@yahoo.com,jakepasner@gmail.com";
+$content="From: $name \n Email: $inputEmail "";
+$subject = "";
+$recipient = "jakepasner@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
-echo "Email sent!";
+echo "Thank you very much!";
 ?>
