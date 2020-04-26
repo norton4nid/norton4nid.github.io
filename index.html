@@ -48,7 +48,7 @@
   </nav>
   <!-- End Navigation Bar -->
 
-  <!-- Modal pop-up-->
+  <!-- Help John Modal pop-up-->
   <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-notify modal-warning" role="document">
@@ -65,7 +65,7 @@
 
         <!--Body-->
         <div class="modal-body">
-          <form>
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
             <div class="form-row">
               <div class="col">
                 <label for="firstName">First Name</label>
@@ -178,11 +178,11 @@
               </div>
             </div>
           </form>
-        </div>
 
-        <!--Footer-->
-        <div class="modal-footer justify-content-center">
-          <a type="button" class="btn btn-outline-warning waves-effect">Send <i class="fas fa-paper-plane-o ml-1"></i></a>
+          <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
         </div>
       </div>
       <!--/.Content-->
