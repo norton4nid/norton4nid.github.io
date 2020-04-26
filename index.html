@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/6db37be376.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style>
-  .fakeimg {
+  .greybox {
     height: 200px;
     background: #aaa;
   }
@@ -64,16 +65,24 @@
 
         <!--Body-->
         <div class="modal-body">
-          <div class="md-form mb-5">
+          <div class="form-group mb-5">
             <i class="fas fa-user prefix grey-text"></i>
             <input type="text" id="form3" class="form-control validate">
             <label data-error="wrong" data-success="right" for="form3">Your name</label>
           </div>
 
-          <div class="md-form">
+          <div class="form-group mb-5">
             <i class="fas fa-envelope prefix grey-text"></i>
             <input type="email" id="form2" class="form-control validate">
             <label data-error="wrong" data-success="right" for="form2">Your email</label>
+          </div>
+          <div class="greybox">
+            <div class="form-group mb-5 ml-4">
+              <input class="form-check-input" type="checkbox" id="checkbox624">
+              <label for="checkbox624" class="white-text form-check-label">
+                I'd like a sign put on my property
+              </label>
+            </div>
           </div>
         </div>
 
@@ -115,13 +124,13 @@
       <div class="col-sm-8">
         <h2>Protect your water rights and the environement </h2>
         <h5>This November 5th cast your vote for John Norton for NID Division 5</h5>
-        <div class="fakeimg">Fake Image</div>
+        <div class="greybox">Fake Image</div>
         <p>Some text..</p>
         <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
         <br>
         <h2>TITLE HEADING</h2>
         <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg">Fake Image</div>
+        <div class="greybox">Fake Image</div>
         <p>Some text..</p>
         <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       </div>
