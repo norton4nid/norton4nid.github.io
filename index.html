@@ -169,18 +169,29 @@
             </div>
             -->
 
+            <hr>
+
+            <h5> Ways to help John: </h5
+
             <div class="form-group">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
+                <input type="checkbox" name="interests[]" value="Cat" />
+                <label class="form-check-label" for="gridCheck">I'd like a sign on my property</label>
               </div>
-            </div>
+              <div class="form-check">
+                <input type="checkbox" name="interests[]" value="Dog" />
+                <label class="form-check-label" for="gridCheck">I'd like to volunteer with campaign</label>
+              </div>
+              <div class="form-check mb-3">
+                <input type="checkbox" name="interests[]" value="Bear" />
+                <label class="form-check-label" for="gridCheck">I'd like ot sign-up for mailing list</label>
+              </div>
           </form>
 
-          <div class="text-center text-md-left">
-            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <a class="btn btn-primary btn-lg" onclick="document.getElementById('contact-form').submit();">Send</a>
           </div>
           <div class="status"></div>
         </div>
