@@ -1,3 +1,23 @@
+blockquote {
+    padding-top: 15px;
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+
 .modal .modal-popout-bg {
   background-image: url("img/helpJohn.jpg");
   background-color: rgba(255, 255, 255, 0.7);
