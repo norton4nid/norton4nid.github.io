@@ -19,6 +19,8 @@
   <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
   <script type="text/javascript">
     function showMailingPopUp() {
+      document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+      document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
       dojoRequire(
         ["mojo/signup-forms/Loader"],
         function(L) {
@@ -27,10 +29,8 @@
             "uuid":"c0884fab34ab195df413d4a0a",
             "lid":"f52474deab",
             "uniqueMethods":true
-          })
-        })
-      document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-      document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+          });
+        });
       }
   </script>
 </head>
