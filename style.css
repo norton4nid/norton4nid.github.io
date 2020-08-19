@@ -32,10 +32,6 @@ blockquote p::after {
 }
 
 /* Endorsements Quote Carousel */
-body {
-    background: linear-gradient(to left, #51cc48, #39df9c);
-    min-height: 100vh;
-}
 
 .width-auto {
     width: auto;
