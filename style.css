@@ -17,7 +17,6 @@ blockquote p::after {
     content: '\201D';
 }
 
-
 .modal .modal-popout-bg {
   background-image: url("img/helpJohn.jpg");
   background-color: rgba(255, 255, 255, 0.7);
@@ -32,7 +31,6 @@ blockquote p::after {
 }
 
 /* Endorsements Quote Carousel */
-
 .width-auto {
     width: auto;
 }
