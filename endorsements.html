@@ -3,11 +3,11 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166257467-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-166257467-1');
+  gtag('config', 'UA-166257467-1');
   </script>
 
   <title>Endorsements</title>
@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -36,175 +36,226 @@
 
   <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
   <script type="text/javascript">
-    function showMailingPopUp() {
-      document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-      document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-      dojoRequire(
-        ["mojo/signup-forms/Loader"],
-        function(L) {
-          L.start( {
-            "baseUrl":"mc.us8.list-manage.com",
-            "uuid":"c0884fab34ab195df413d4a0a",
-            "lid":"f52474deab",
-            "uniqueMethods":true
-          });
+  function showMailingPopUp() {
+    document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+    document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+    dojoRequire(
+      ["mojo/signup-forms/Loader"],
+      function(L) {
+        L.start( {
+          "baseUrl":"mc.us8.list-manage.com",
+          "uuid":"c0884fab34ab195df413d4a0a",
+          "lid":"f52474deab",
+          "uniqueMethods":true
         });
-      }
-  </script>
-</head>
-<body>
+      });
+    }
+    </script>
+  </head>
+  <body>
 
-  <!-- Declare Navigation Bar -->
-  <nav class="navbar navbar-inverse navbar-expand-md fixed-top bg-dark navbar-dark">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#collapse-NavBar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Norton4NID</a>
-      </div>
-      <div class="collapse navbar-collapse" id="collapse-NavBar">
-        <ul class="nav navbar-nav">
-          <li class="nav-item">
-            <a class="btn btn-danger btn-lg mr-2" href="https://www.efundraisingconnections.com/c/johnnorton">Donate Now</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-primary btn-lg mr-2" href="helpJohn.html">Help John</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="btn btn-warning btn-lg mr-2" onclick="showMailingPopUp(); return false;">Get News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mt-1 mr-2" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mt-1 mr-2" href="news.html">Campaign News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active mt-1 mr-2" href="endorsements.html">Endorsements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mt-1 mr-2" href="map.html">Division 5 Map</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Navigation Bar -->
-
-  <!-- Begin Page Content-->
-<div class="container" style="padding-top:120px">
-  <div class="row">
-    <div class="col-sm-3 text-center">
-      <h2>Endorsements</h2>
-      <img src="img/new_profile.jpg" class="img-fluid rounded-circle" alt="John Norton Profile Picture">
-
-      <blockquote>
-        <p>
-          Thank you for your support
-        </p>
-        <footer>
-          -John Norton for NID Division 5
-        </footer>
-      </blockquote>
-      <a href="https://aemail.com/v2Yr" target="_blank" class="btn btn-success">Email John</a>
-      <hr style="height:1px;border:none;color:#333;background-color:#333;" />
-      <h4>Some Links</h4>
-      <hr style="height:1px;border:none;color:#333;background-color:#333;" />
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Norton4NID</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="news.html">Campaign News</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="endorsements.html">Endorsements</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="map.html">Division 5 Map</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-9">
-      <h1 align="center">Endorsements</h1>
-      <br>
-      <div class="text-center">
-        <a class="btn btn-info btn-lg mr-2" href="helpJohn.html">Endorse John</a>
-      </div>
-      <br>
-
-      <div class="container">
-        <div class="row">
+    <!-- Declare Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-expand-md fixed-top bg-dark navbar-dark">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#collapse-NavBar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Norton4NID</a>
         </div>
-        <div class='row'>
-          <div class='col-md-offset-2 col-md-8'>
-            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-              <!-- Bottom Carousel Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#quote-carousel" data-slide-to="1"></li>
-                <li data-target="#quote-carousel" data-slide-to="2"></li>
-              </ol>
+        <div class="collapse navbar-collapse" id="collapse-NavBar">
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="btn btn-danger btn-lg mr-2" href="https://www.efundraisingconnections.com/c/johnnorton">Donate Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary btn-lg mr-2" href="helpJohn.html">Help John</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="btn btn-warning btn-lg mr-2" onclick="showMailingPopUp(); return false;">Get News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-1 mr-2" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-1 mr-2" href="news.html">Campaign News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mt-1 mr-2" href="endorsements.html">Endorsements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-1 mr-2" href="map.html">Division 5 Map</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation Bar -->
 
-              <!-- Carousel Slides / Quotes -->
-              <div class="carousel-inner">
+    <!-- Begin Page Content-->
+    <div class="container" style="padding-top:120px">
+      <div class="row">
+        <div class="col-sm-3 text-center">
+          <h2>Endorsements</h2>
+          <img src="img/new_profile.jpg" class="img-fluid rounded-circle" alt="John Norton Profile Picture">
 
-                <!-- Quote 1 -->
-                <div class="item active">
-                  <blockquote>
-                    <div class="row">
-                      <div class="col-sm-3 text-center">
-                        <img class="img-circle" src="http://www.reactiongifs.com/r/overbite.gif" style="width: 100px;height:100px;">
-                        <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
-                      </div>
-                      <div class="col-sm-9">
-                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-                        <small>Very Not Important Person</small>
-                      </div>
+          <blockquote>
+            <p>
+              Thank you for your support
+            </p>
+            <footer>
+              -John Norton for NID Division 5
+            </footer>
+          </blockquote>
+          <a href="https://aemail.com/v2Yr" target="_blank" class="btn btn-success">Email John</a>
+          <hr style="height:1px;border:none;color:#333;background-color:#333;" />
+          <h4>Some Links</h4>
+          <hr style="height:1px;border:none;color:#333;background-color:#333;" />
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Norton4NID</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">Campaign News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="endorsements.html">Endorsements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="map.html">Division 5 Map</a>
+            </li>
+          </ul>
+          <hr class="d-sm-none">
+        </div>
+        <div class="col-sm-9">
+          <h1 align="center">Endorsements</h1>
+          <br>
+          <div class="text-center">
+            <a class="btn btn-info btn-lg mr-2" href="helpJohn.html">Endorse John</a>
+          </div>
+          <br>
+
+          <div class="container">
+            <div class="row">
+            </div>
+            <div class='row'>
+              <div class='col-md-offset-2 col-md-8'>
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                  <!-- Bottom Carousel Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#quote-carousel" data-slide-to="1"></li>
+                    <li data-target="#quote-carousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Carousel Slides / Quotes -->
+                  <div class="carousel-inner">
+
+                    <!-- Quote 1 -->
+                    <div class="item active">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-sm-3 text-center">
+                            <img class="img-circle" src="http://www.reactiongifs.com/r/overbite.gif" style="width: 100px;height:100px;">
+                            <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                          </div>
+                          <div class="col-sm-9">
+                            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                            <small>Very Not Important Person</small>
+                          </div>
+                        </div>
+                      </blockquote>
                     </div>
-                  </blockquote>
-                </div>
-                <!-- Quote 2 -->
-                <div class="item">
-                  <blockquote>
-                    <div class="row">
-                      <div class="col-sm-3 text-center">
-                        <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width: 100px;height:100px;">
-                      </div>
-                      <div class="col-sm-9">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                        <small>Someone famous</small>
-                      </div>
+                    <!-- Quote 2 -->
+                    <div class="item">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-sm-3 text-center">
+                            <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width: 100px;height:100px;">
+                          </div>
+                          <div class="col-sm-9">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                            <small>Someone famous</small>
+                          </div>
+                        </div>
+                      </blockquote>
                     </div>
-                  </blockquote>
-                </div>
-                <!-- Quote 3 -->
-                <div class="item">
-                  <blockquote>
-                    <div class="row">
-                      <div class="col-sm-3 text-center">
-                        <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
-                      </div>
-                      <div class="col-sm-9">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-                        <small>Someone famous</small>
-                      </div>
+                    <!-- Quote 3 -->
+                    <div class="item">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-sm-3 text-center">
+                            <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
+                          </div>
+                          <div class="col-sm-9">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+                            <small>Someone famous</small>
+                          </div>
+                        </div>
+                      </blockquote>
                     </div>
-                  </blockquote>
+                  </div>
+
+                  <!-- Carousel Buttons Next/Prev -->
+                  <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                  <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
                 </div>
               </div>
-
-              <!-- Carousel Buttons Next/Prev -->
-              <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-              <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
             </div>
           </div>
+
+
+          <ul class="list">
+            <li>Kurt Grundel</li>
+            <li>Terry Thies</li>
+            <li>Harold Tiegs</li>
+            <li>Patti Lawrence</li>
+            <li>Gail Smith</li>
+            <li>Kathryn Canan</li>
+            <li>John Hellwig</li>
+            <li>Yara Pasner</li>
+            <li>Steve Roddy</li>
+            <li>Jeff Heyser</li>
+            <li>Dianna Suarez</li>
+            <li>Bob Branstrom</li>
+            <li>Ralph Hitchcock</li>
+            <li>Rick Sharkey</li>
+            <li>Susan Brandt Blachley</li>
+            <li>Keith Darling</li>
+            <li>Bill and Sandy Yanko</li>
+            <li>Tom Gleisner</li>
+            <li>Robert Goar</li>
+            <li>Richard Morrall</li>
+            <li>Michelle Sexton</li>
+            <li>Ben Perkins</li>
+            <li>Lee Hudson</li>
+            <li>Rebecca Thompson</li>
+            <li>Steve Klein</li>
+            <li>Lauren Syda</li>
+            <li>Nancy and Roger Jensen</li>
+            <li>Peter Van Zant</li>
+            <li>Pearse McNamara</li>
+            <li>Nancy Weber</li>
+            <li>Michael Gompertz</li>
+            <li>Dr. Steve	Smalley</li>
+            <li>Greg Gearheart</li>
+            <li>Ron and Conni	Barker</li>
+            <li>Dr. Roger	Hicks</li>
+            <li>Bruce	Puphal</li>
+            <li>Elizabeth	Martin</li>
+            <li>Dr. Jacob Pasner</li>
+          </ul>
         </div>
+      </div>
+    </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>Fair Political Practices Commission number 1426055 <br>
+        Paid for by Norton for Nevada Irrigation District 2020 <br>
+        PO Box 575, Penn Valley, CA 95946</p>
       </div>
 
       <script type="text/javascript">
@@ -216,57 +267,6 @@
           interval: 4000,
         });
       });
-      </script>
-
-      <ul class="list">
-        <li>Kurt Grundel</li>
-        <li>Terry Thies</li>
-        <li>Harold Tiegs</li>
-        <li>Patti Lawrence</li>
-        <li>Gail Smith</li>
-        <li>Kathryn Canan</li>
-        <li>John Hellwig</li>
-        <li>Yara Pasner</li>
-        <li>Steve Roddy</li>
-        <li>Jeff Heyser</li>
-        <li>Dianna Suarez</li>
-        <li>Bob Branstrom</li>
-        <li>Ralph Hitchcock</li>
-        <li>Rick Sharkey</li>
-        <li>Susan Brandt Blachley</li>
-        <li>Keith Darling</li>
-        <li>Bill and Sandy Yanko</li>
-        <li>Tom Gleisner</li>
-        <li>Robert Goar</li>
-        <li>Richard Morrall</li>
-        <li>Michelle Sexton</li>
-        <li>Ben Perkins</li>
-        <li>Lee Hudson</li>
-        <li>Rebecca Thompson</li>
-        <li>Steve Klein</li>
-        <li>Lauren Syda</li>
-        <li>Nancy and Roger Jensen</li>
-        <li>Peter Van Zant</li>
-        <li>Pearse McNamara</li>
-        <li>Nancy Weber</li>
-        <li>Michael Gompertz</li>
-        <li>Dr. Steve	Smalley</li>
-        <li>Greg Gearheart</li>
-        <li>Ron and Conni	Barker</li>
-        <li>Dr. Roger	Hicks</li>
-        <li>Bruce	Puphal</li>
-        <li>Elizabeth	Martin</li>
-        <li>Dr. Jacob Pasner</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Fair Political Practices Commission number 1426055 <br>
-     Paid for by Norton for Nevada Irrigation District 2020 <br>
-     PO Box 575, Penn Valley, CA 95946</p>
-</div>
-
-</body>
-</html>
+    </script>
+  </body>
+  </html>
